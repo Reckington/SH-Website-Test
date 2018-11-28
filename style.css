@@ -13,14 +13,14 @@ p {
 
 h1 {
 	font-weight: 300;
-  font-size: 38px;
+  font-size: 44px;
   font-family: 'Open Sans';
   text-align: center;
 }
 
 h2 {
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: 300;
+  font-size: 30px;
   font-family: 'Lato';
   text-align: center;
 }
@@ -199,13 +199,16 @@ h2 {
     width: 40%;
 
   }
+  .landing h1 {
+    margin: 0;
+  }
 
-  .landing h1, .landing h2 {
-    margin: 2vh 0 0 0; 
+  .landing h2 {
+    margin: 1vh 0 0 0; 
   }
 
   .landing .input {
-    margin: 4vh 0 0 0; 
+    margin: 6vh 0 0 0; 
   }
 
 #EmailCTA {
