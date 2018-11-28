@@ -166,14 +166,17 @@ h2 {
 
   .Background-Image {
     position: absolute;
+    transform: translateX(-50%); /* Sliding Transform on Scroll */
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
     background-image: url("./GraphTest4.png");
     background-size: cover;
     height: 100vh;
     width: 100vw;
     opacity: 0.2;
-    filter: alpha(opacity=20);
     top: 0;
-    left: 0;
+    left: 50%;
     z-index: 2;
   }
   .landing {
