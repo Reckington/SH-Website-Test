@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 26px;
   line-height: 36px;
   font-family: 'Lato';
@@ -171,10 +171,10 @@ h2 {
 
 /* Full Height Block Sections */
   /* Block 1 - Adjustments */
-  .block1 {
+  .landing {
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: end;
     top: 0;
     left: 0;
     position: relative;
@@ -183,55 +183,25 @@ h2 {
     height: 100vh;
   }
 
-  /*
-  .block1 img {
-    bottom: 0;
+   .contentblock  {
+    display: inline;
+    justify-content: center;
+    align-items: end;
+    top: 0;
+    left: 0;
+    color: white;
+  }
+
+  .landing img {
+    Bottom: 0;
     position: absolute;
     align-items: center;
     width: 40%;
 
-  } */
-
-  .contentblock  {
-    background-color: #0c74ee;
-    display: grid;
-    justify-content: end;
-    align-content: flex-end;
-    justify-items: center;
-    align-items: center; 
-    grid: 2fr 1fr 1fr 2fr / 1fr;
-    grid-gap: 80px;
-    width: 60vw;
-    height: 60vh;
   }
 
-  .contentblock div {
-    color: white;
-  }
+ 
 
-  /* Grid Columns */
-
-  .Item1 {
-    grid-row-start: 1;
-  }
-
-  .Item2 {
-    grid-row-start: 2;
-  }
-
-  .Item3 {
-    grid-row-start: 3;
-  }
-
-  .Item4 {
-    grid-row-start: 4;
-    justify-self: center;
-    align-self: center;
-  }
-
-  .Item4 img {
-    width: 60%;
-  }
 
 
 /* Second Block */
