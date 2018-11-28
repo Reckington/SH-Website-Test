@@ -29,7 +29,7 @@ h2 {
 #CTAButton {
   background-color: #ffc700;
   border: 0;
-  margin: 0;
+  margin-top: 0;
   color: #6c2d32;
   padding: 10px 24px;
   text-align: center;
@@ -200,7 +200,7 @@ h2 {
 
   }
 
-  .landing h1, .landing h2, .landing #CTAButton {
+  .landing h1, .landing h2 {
     margin: 2vh 0 0 0; 
   }
 
@@ -225,6 +225,11 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
 }
 
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
  
 
 
