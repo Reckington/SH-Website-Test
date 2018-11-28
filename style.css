@@ -47,8 +47,8 @@ h2 {
 
  /* Button Transition On Hover */
 #CTAButton:hover {
-  background-color: white;
-  color: #0c74ee;
+  background-color: #FFDD64;
+  color: #555555;
 }
 
 /* Navigation Bar */
