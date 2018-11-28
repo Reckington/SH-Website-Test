@@ -39,7 +39,6 @@ h2 {
   font-size: 15px;
   line-height: 21px;
   font-weight: 500;
-  z-index: 20;
   height: 54px;
   transition: all 0.4s;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
@@ -176,26 +175,39 @@ h2 {
   }
 
    .contentblock  {
-    display: block;
-    border: red dashed 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
     color: white;
-    top: 50%;
-    left: 50%;
-    height: 30vh;
-  }
-  .contentblock div {
-    border: green dashed 2px;
-    left: 30%;
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+
+    
   }
 
+  .contentblock :nth-child(1) { order: 1; }
+  .contentblock :nth-child(2) { order: 2; }
+  .contentblock :nth-child(3) { order: 3; }
+  .contentblock :nth-child(4) { order: 4; }
+  .contentblock :nth-child(5) { order: 5; }
+
   .landing img {
-    Bottom: 0;
-    position: absolute;
-    align-items: center;
-    left: 30%;
+    margin-top: 10vh;
     width: 40%;
 
   }
+
+  .landing h1, .landing h2, .landing #CTAButton {
+    margin: 2vh 0 0 0; 
+  }
+
+  .landing .input {
+    margin: 4vh 0 0 0; 
+  }
+
+
 
  
 
