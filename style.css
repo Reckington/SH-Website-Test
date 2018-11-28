@@ -1,0 +1,264 @@
+/* General & Headers */
+body {
+    background-color: #808080;
+    margin: 0;
+  }
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: 'Lato';
+}
+
+h1 {
+	font-weight: 300;
+  font-size: 38px;
+  line-height: 50px;
+  font-family: 'Open Sans';
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  font-family: 'Lato';
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/* Button */
+#CTAButton {
+  background-color: #ffc700;
+  border: none;
+  color: #6c2d32;
+  padding: 10px 24px;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
+  z-index: 20;
+  height: 54px;
+  transition: all 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+}
+
+ /* Button Transition On Hover */
+#CTAButton:hover {
+  background-color: white;
+  color: #0c74ee;
+}
+
+/* Navigation Bar */
+  .Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: white;
+    height: 70px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 21px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+  }
+
+/* Navigation Menu */
+  .Nav a {
+    flex-basis: 90px;
+    text-align: center;
+    text-decoration: none;
+    color: #808080;
+  }
+  .Nav .active {
+    font-weight: 600;
+    color: #0c74ee;
+  }
+  .Nav a:hover {
+    color: #0c74ee;
+  }
+
+  /* Navigation Menu - Right Side */
+  #NavRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 30;
+    height: 70px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  #NavRight a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #0c74ee;
+  }
+
+  /* Navigation Button */
+  #NavButton {
+    background-color: #ffc700;
+    border: none;
+    color: #6c2d32;
+    padding: 10px 24px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    z-index: 20;
+    height: 42px;
+    margin-right: 20px;
+    transition: all 0.4s;
+}
+
+/* Button Transition On Hover */
+  #NavButton:hover {
+    background-color: #0c74ee;
+    color: white;
+  }
+
+/* Center Navigation Image (Under Box) */
+  .Nav img {
+    width: 100px;
+    height: 10px;
+    padding: 0 20px 0 20px;
+  }
+
+/* Floating Logo */
+  #NavLogo {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+  }
+  #NavLogo img {
+    align-items: center;
+    position: absolute;
+    z-index: 20;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%); /* Sliding Transform on Scroll */
+    
+  }
+
+/* Full Height Block Sections */
+  /* Block 1 - Adjustments */
+  .block1 {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    background-color: #0c74ee;
+    height: 100vh;
+  }
+
+  /*
+  .block1 img {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    width: 40%;
+
+  } */
+
+  .contentblock  {
+    background-color: #0c74ee;
+    display: grid;
+    justify-content: end;
+    align-content: flex-end;
+    justify-items: center;
+    align-items: center; 
+    grid: 2fr 1fr 1fr 2fr / 1fr;
+    grid-gap: 80px;
+    width: 60vw;
+    height: 60vh;
+  }
+
+  .contentblock div {
+    color: white;
+  }
+
+  /* Grid Columns */
+
+  .Item1 {
+    grid-row-start: 1;
+  }
+
+  .Item2 {
+    grid-row-start: 2;
+  }
+
+  .Item3 {
+    grid-row-start: 3;
+  }
+
+  .Item4 {
+    grid-row-start: 4;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .Item4 img {
+    width: 60%;
+  }
+
+
+/* Second Block */
+
+  .block2 {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    background-color: #12263f;
+    height: calc(100vh - 70px);
+  }
+
+  .block2 img {
+    top: 0;
+    position: absolute;
+    align-items: center;
+    width: 40%;
+
+  }
+
+  /* Third Block */
+  
+  .block3 {
+    background-color: #171e24;
+    height: calc(100vh - 70px);
+  }
