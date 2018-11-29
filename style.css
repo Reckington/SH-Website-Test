@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
 /* General & Headers */
 body {
     background-color: #808080;
@@ -157,6 +159,7 @@ h2 {
     height: 100px;
     width: 100px;
     left: 50%;
+    border-radius: 0px 0px 3px 3px;
     transform: translateX(-50%); /* Sliding Transform on Scroll */
     
   }
