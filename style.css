@@ -13,18 +13,26 @@ p {
   font-family: 'Lato';
 }
 
+h1, h2, h3, h4 {
+  margin: 0 0 0 0;
+}
+
 h1 {
 	font-weight: 300;
   font-size: 44px;
   font-family: 'Open Sans';
-  text-align: center;
 }
 
 h2 {
   font-weight: 300;
   font-size: 30px;
   font-family: 'Lato';
-  text-align: center;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Lato';
 }
 
 /* Button */
@@ -64,11 +72,12 @@ h2 {
     left: 0;
     z-index: 10;
     background: white;
-    height: 70px;
+    height: 64px;
     font-family: 'Open Sans';
     font-size: 15px;
     line-height: 21px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+    
   }
 
 /* Navigation Menu */
@@ -95,7 +104,7 @@ h2 {
     top: 0;
     right: 0;
     z-index: 30;
-    height: 70px;
+    height: 64px;
     font-family: 'Open Sans';
     font-size: 15px;
     line-height: 21px;
@@ -169,7 +178,6 @@ h2 {
 
   .Background-Image {
     position: absolute;
-    transform: translateX(-50%); /* Sliding Transform on Scroll */
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 2px;
@@ -192,6 +200,7 @@ h2 {
     width: 100vw;
     background-color: #0c74ee;
     height: 100vh;
+
   }
 
    .contentblock  {
@@ -225,6 +234,7 @@ h2 {
 
   .landing h2, .Square {
     margin: 2vh 0 0 0; 
+    text-align: center;
   }
 
   .landing .input {
@@ -285,13 +295,72 @@ h2 {
   }
 
   .block2 img {
-    top: 0;
-    position: absolute;
-    align-items: center;
     width: 40%;
-
   }
 
+  .block2content  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: white;
+    position: absolute;
+    top: 0%;
+    width: 100vw;
+    z-index: 3;
+  }
+
+  .block2content p {
+  text-align: center;
+  margin: 2vh 0 0 0; 
+  }
+
+  .block2content h1 {
+    text-align: center;
+    margin: 6vh 0 0 0; 
+    }
+
+/* Flex Columns */
+  .block2content :nth-child(1) { order: 1; }
+  .block2content :nth-child(2) { order: 2; }
+  .block2content :nth-child(3) { order: 3; }
+  .block2content :nth-child(4) { order: 4; }
+  .block2content :nth-child(5) { order: 5; }
+
+ 
+ .threeblocks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin-top: 4vh;
+ }
+
+ .threeblocks :nth-child(1) { order: 1; }
+ .threeblocks :nth-child(2) { order: 2; }
+ .threeblocks :nth-child(3) { order: 3; }
+ 
+  .infoblock1, .infoblock2, .infoblock3 {
+    width: 18vw;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .infoblock1 {
+    background-color: #293b51;
+  }
+
+  .infoblock2 {
+    border: #ffc700 solid 2px;
+    color: #ffc700;
+  }
+
+  .infoblock3 {
+    background-color: #ffc700;
+    color: #6c2d32;
+  }
   /* Third Block */
   
   .block3 {
