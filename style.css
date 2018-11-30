@@ -12,6 +12,7 @@ p {
   line-height: 28px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.5px;
+  color: #555555;
 }
 
 h1, h2, h3, h4 {
@@ -38,6 +39,16 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   
 }
+
+/* Additional Componenets */
+
+  .SmallShadow {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  .RedBorder {
+    border: red dashed 2px;
+  }
 
 /* Button */
 #CTAButton {
@@ -98,8 +109,8 @@ h3 {
   .Nav a:hover {
     color: #ffffff;
   }
-
-  .Nav .feather:hover {
+  
+  .Nav a:hover .feather {
     color: #ffc700;
   }
 
@@ -519,8 +530,8 @@ h3 {
     bottom: 0;
     left: 0;
     position: relative;
-    width: 90vw;
-    border-radius: 3px 3px 0 0;
+    width: 80vw;
+    border-radius: 5px 5px 0 0;
   }
 
   .threeReviews p {
@@ -559,16 +570,51 @@ h3 {
       width: 30px;
     }
 
-  /* Footer Block */
-  .MainFooter {
-    background-color: #f6f6f6;
+  /* Review Second Line */
+  .ReviewFooter {
+    background-color: #0c74ee;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .ReviewSmallerFooter p {
+    padding: 25px 0 25px 0;
+    margin: 0px;
     color: #aaa;
+  }
+
+  .ReviewSmallerFooter {
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center;
     align-items: top;
     top: 0;
     left: 0;
     position: relative;
-    width: 100vw;
-    height: 40px;
+    width: 80vw;
+    border-radius: 0px 0px 5px 5px;
   }
+
+
+    /* Footer */
+    .CleanFooter {
+      background-color: #0c74ee;
+      display: flex;
+      justify-content: center;
+      align-items: top;
+      top: 0;
+      left: 0;
+      width: 100vw;
+    }
+
+    .CleanFooter p {
+      padding: 25px 0 25px 0;
+      margin: 0px;
+      color: rgba(17, 23, 66, 0.541);
+      font-size: 13px;
+      letter-spacing: 0;
+    }
