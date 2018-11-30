@@ -209,6 +209,7 @@ h3 {
     align-items: center;
     position: absolute;
     z-index: 20;
+    background-color: white;
     height: 80px;
     width: 80px;
     left: 50%;
