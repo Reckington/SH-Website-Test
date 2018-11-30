@@ -117,8 +117,13 @@ h3 {
     margin-right: 10px;
   }
 
+  .NavItem1 {
+    color: white;
+  }
+
   .NavItem1 .feather {
-    margin-bottom: 4px;
+    margin-bottom: 3px;
+    color: #ffc700;
   }
 
   .NavItem2 .feather {
