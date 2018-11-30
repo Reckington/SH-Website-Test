@@ -176,9 +176,9 @@ h3 {
     margin-right: 15px;
     transition: all 0.4s;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -407,9 +407,10 @@ h3 {
     background-color: #ffc700;
     color: #6c2d32;
   }
+
   /* Third Block */
-  
   .block3 {
     background-color: #171e24;
     height: calc(100vh - 70px);
+    width: 100vw;
   }
