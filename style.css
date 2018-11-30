@@ -137,6 +137,60 @@ h3 {
   .NavItem4 .feather {
     margin-bottom: 1px;
   }
+  
+/* Navigation Menu - Left Side */
+
+#NavLeft {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  height: 60px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#NavLeft a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+}
+
+/* Navigation Button */
+#NavButton {
+  background-color: #0c74ee;
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  border-radius: 3px;
+  z-index: 20;
+  height: 38px;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Button Transition On Hover */
+#NavButton:hover {
+  background-color: #0c74ee;
+  color: white;
+}
+
+
 
   /* Navigation Menu - Right Side */
   #NavRight {
@@ -410,7 +464,111 @@ h3 {
 
   /* Third Block */
   .block3 {
-    background-color: #171e24;
-    height: calc(100vh - 70px);
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
     width: 100vw;
+    height: 100px;
+  }
+
+
+  /* CTA Block */
+  .CTA {
+    background-color: #0c74ee;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    height: 180px;
+  }
+
+  .CTA .Input {
+    width: 80vw;
+}
+
+  .CTA h2 {
+    margin-right: 40px;
+    color: white;
+  }
+
+
+  /* Reviews Block*/
+  .ReviewsBlock {
+    background-color: #0c74ee;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+  }
+
+  .Reviews {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 90vw;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .threeReviews p {
+    text-align: left;
+  }
+  
+  .threeReviews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 3vh;
+   }
+  
+   .threeReviews :nth-child(1) { order: 1; }
+   .threeReviews :nth-child(2) { order: 2; }
+   .threeReviews :nth-child(3) { order: 3; }
+   
+    .SingleReviewblock {
+      width: 100%;
+      padding: 40px 40px 30px 40px;
+      margin: 10px;
+      border-radius: 5px;
+      border: #f6f6f6 solid 2px;
+      text-align: center;
+      background-color: #fff;
+    }
+  
+
+    .SingleReviewblock .feather {
+      margin: 15px 0 0 0;
+      padding: 0;
+      color: #ffc700;
+      fill: #ffc700;
+      height: 30px;
+      width: 30px;
+    }
+
+  /* Footer Block */
+  .MainFooter {
+    background-color: #f6f6f6;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    height: 40px;
   }
