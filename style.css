@@ -76,7 +76,7 @@ h3 {
     left: 0;
     z-index: 10;
     background: #14485f;
-    height: 64px;
+    height: 60px;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -99,24 +99,39 @@ h3 {
     color: #ffffff;
   }
 
-  .NavItem .feather:hover {
+  .Nav .feather:hover {
     color: #ffc700;
   }
 
-  .NavItem {
+  .NavItem1, .NavItem2, .NavItem3, .NavItem4 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .NavItem .feather {
+  .Nav .feather {
     width: 16px;
     height: 16x;
     color: #aaa;
     margin-right: 10px;
   }
 
+  .NavItem1 .feather {
+    margin-bottom: 4px;
+  }
+
+  .NavItem2 .feather {
+    margin-bottom: 3px;
+  }
+
+  .NavItem3 .feather {
+    margin-bottom: 2px;
+  }
+
+  .NavItem4 .feather {
+    margin-bottom: 1px;
+  }
 
   /* Navigation Menu - Right Side */
   #NavRight {
@@ -127,7 +142,7 @@ h3 {
     top: 0;
     right: 0;
     z-index: 30;
-    height: 64px;
+    height: 60px;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -146,14 +161,14 @@ h3 {
     background-color: #ffc700;
     border: none;
     color: #6c2d32;
-    padding: 10px 24px;
+    padding: 8px 24px;
     text-align: center;
     align-items: center;
     display: inline-block;
     border-radius: 5px;
     z-index: 20;
-    height: 42px;
-    margin-right: 20px;
+    height: 38px;
+    margin-right: 15px;
     transition: all 0.4s;
     font-size: 15px;
     font-weight: 400;
@@ -183,7 +198,7 @@ h3 {
     top: 0;
     left: 0;
     position: relative;
-    width: 100vw;
+    width: 100%;
   }
   #NavLogo img {
     align-items: center;
