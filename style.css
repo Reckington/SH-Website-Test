@@ -163,9 +163,9 @@ h3 {
 
   /* Navigation Button */
   #NavButton {
-    background-color: #ffc700;
+    background-color: #0c74ee;
     border: none;
-    color: #6c2d32;
+    color: white;
     padding: 8px 24px;
     text-align: center;
     align-items: center;
@@ -214,6 +214,8 @@ h3 {
     left: 50%;
     border-radius: 0px 0px 3px 3px;
     transform: translateX(-50%); /* Sliding Transform on Scroll */
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.08);
+    border: 0;
     
   }
 
