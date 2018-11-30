@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400,500,700');
 
 /* General & Headers */
 body {
@@ -75,29 +75,48 @@ h3 {
     top: 0;
     left: 0;
     z-index: 10;
-    background: white;
+    background: #14485f;
     height: 64px;
-    font-family: 'Open Sans';
     font-size: 15px;
-    line-height: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-family: 'Roboto', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
     
   }
 
 /* Navigation Menu */
   .Nav a {
-    flex-basis: 90px;
+    /* flex-basis: 150px; */
+    padding: 0 20px;
     text-align: center;
     text-decoration: none;
-    color: #808080;
+    color: #aaa;
   }
-  .Nav .active {
-    font-weight: 600;
-    color: #0c74ee;
-  }
+  
   .Nav a:hover {
-    color: #0c74ee;
+    color: #ffffff;
   }
+
+  .NavItem .feather:hover {
+    color: #ffc700;
+  }
+
+  .NavItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .NavItem .feather {
+    width: 16px;
+    height: 16x;
+    color: #aaa;
+    margin-right: 10px;
+  }
+
 
   /* Navigation Menu - Right Side */
   #NavRight {
@@ -109,16 +128,17 @@ h3 {
     right: 0;
     z-index: 30;
     height: 64px;
-    font-family: 'Open Sans';
     font-size: 15px;
-    line-height: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-family: 'Roboto', sans-serif;
   }
 
   #NavRight a {
     margin-right: 20px;
     text-decoration: none;
-    font-weight: 600;
-    color: #0c74ee;
+    color: #fff;
   }
 
   /* Navigation Button */
@@ -130,16 +150,16 @@ h3 {
     text-align: center;
     align-items: center;
     display: inline-block;
-    font-size: 15px;
     border-radius: 5px;
-    font-family: 'Open Sans';
-    font-size: 15px;
-    line-height: 21px;
-    font-weight: 500;
     z-index: 20;
     height: 42px;
     margin-right: 20px;
     transition: all 0.4s;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Button Transition On Hover */
